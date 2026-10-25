@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1180" width="600" height="1180" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1250" width="600" height="1250" role="img" aria-labelledby="title desc">
 <title id="title">Toufik Bentaleb — Control Systems Engineer</title>
-<desc id="desc">Terminal profile with a portrait drawn entirely from ASCII text characters. Senior Control Systems Engineer, PhD, working on predictive control, state estimation, robotics, embedded systems and DZARYON.</desc>
-<defs><clipPath id="window"><rect x="1" y="1" width="598" height="1178" rx="18"/></clipPath></defs>
-<rect x="1" y="1" width="598" height="1178" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<desc id="desc">Terminal profile with a portrait drawn entirely from ASCII text characters. Senior Control Systems Engineer, PhD, working on advanced controller design, state estimation, robotics, embedded systems and DZARYON.</desc>
+<defs><clipPath id="window"><rect x="1" y="1" width="598" height="1248" rx="18"/></clipPath></defs>
+<rect x="1" y="1" width="598" height="1248" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
 <path d="M1 18Q1 1 18 1H582Q599 1 599 18V52H1Z" fill="#161b22"/>
 <circle cx="28" cy="27" r="6" fill="#ff5f57"/>
 <circle cx="49" cy="27" r="6" fill="#febc2e"/>
@@ -65,22 +65,24 @@
 <text x="28" y="618" font-size="19" fill="#8b949e" font-weight="400">PhD · 15+ years of experience</text>
 <path d="M28 643H572" stroke="#30363d"/>
 <text x="28" y="680" font-size="16" fill="#ffa657" font-weight="400">Control</text>
-<text x="28" y="704" font-size="20" fill="#e6edf3" font-weight="400">MPC · Optimal · Adaptive · LPV</text>
-<text x="28" y="729" font-size="16" fill="#ffa657" font-weight="400">Estimation</text>
-<text x="28" y="753" font-size="20" fill="#e6edf3" font-weight="400">Kalman · EKF/UKF · System ID</text>
-<text x="28" y="778" font-size="16" fill="#ffa657" font-weight="400">Learning</text>
-<text x="28" y="802" font-size="20" fill="#e6edf3" font-weight="400">ML diagnostics · Neural control</text>
-<text x="28" y="827" font-size="16" fill="#ffa657" font-weight="400">Code</text>
-<text x="28" y="851" font-size="20" fill="#e6edf3" font-weight="400">MATLAB/Simulink · C/C++ · Python</text>
-<text x="28" y="876" font-size="16" fill="#ffa657" font-weight="400">Tools</text>
-<text x="28" y="900" font-size="20" fill="#e6edf3" font-weight="400">ROS 2 · MuJoCo · CasADi · YALMIP</text>
-<text x="28" y="925" font-size="16" fill="#ffa657" font-weight="400">Embedded</text>
-<text x="28" y="949" font-size="20" fill="#e6edf3" font-weight="400">STM32 · STM8 · CAN/LIN</text>
-<text x="28" y="974" font-size="16" fill="#ffa657" font-weight="400">Languages</text>
-<text x="28" y="998" font-size="20" fill="#e6edf3" font-weight="400">Arabic · French · English</text>
-<path d="M28 1020H572" stroke="#30363d"/>
-<text x="28" y="1054" font-size="22" fill="#d2a8ff" font-weight="400">Building DZARYON</text>
-<text x="28" y="1088" font-size="20" fill="#e6edf3" font-weight="400">AI &amp; Intelligent Systems</text>
-<text x="28" y="1122" font-size="20" fill="#79c0ff" font-weight="400">dzrobotics.org</text>
-<text x="28" y="1160" font-size="17" fill="#7ee787" font-weight="400">$ model · simulate · implement · validate</text>
+<text x="28" y="704" font-size="20" fill="#e6edf3" font-weight="400">Advanced controller design</text>
+<text x="28" y="729" font-size="16" fill="#ffa657" font-weight="400">Methods</text>
+<text x="28" y="753" font-size="20" fill="#e6edf3" font-weight="400">Robust · Adaptive · Optimal · LPV</text>
+<text x="28" y="778" font-size="16" fill="#ffa657" font-weight="400">Estimation</text>
+<text x="28" y="802" font-size="20" fill="#e6edf3" font-weight="400">Kalman · EKF/UKF · System ID</text>
+<text x="28" y="827" font-size="16" fill="#ffa657" font-weight="400">Learning</text>
+<text x="28" y="851" font-size="20" fill="#e6edf3" font-weight="400">ML diagnostics · Neural models</text>
+<text x="28" y="876" font-size="16" fill="#ffa657" font-weight="400">Code</text>
+<text x="28" y="900" font-size="20" fill="#e6edf3" font-weight="400">MATLAB/Simulink · C/C++ · Python</text>
+<text x="28" y="925" font-size="16" fill="#ffa657" font-weight="400">Tools</text>
+<text x="28" y="949" font-size="20" fill="#e6edf3" font-weight="400">ROS 2 · MuJoCo · CasADi · YALMIP</text>
+<text x="28" y="974" font-size="16" fill="#ffa657" font-weight="400">Embedded</text>
+<text x="28" y="998" font-size="20" fill="#e6edf3" font-weight="400">STM32 · STM8 · CAN/LIN</text>
+<text x="28" y="1023" font-size="16" fill="#ffa657" font-weight="400">Languages</text>
+<text x="28" y="1047" font-size="20" fill="#e6edf3" font-weight="400">Arabic · French · English</text>
+<path d="M28 1080H572" stroke="#30363d"/>
+<text x="28" y="1117" font-size="22" fill="#d2a8ff" font-weight="400">Building DZARYON</text>
+<text x="28" y="1151" font-size="20" fill="#e6edf3" font-weight="400">AI &amp; Intelligent Systems</text>
+<text x="28" y="1185" font-size="20" fill="#79c0ff" font-weight="400">dzrobotics.org</text>
+<text x="28" y="1228" font-size="17" fill="#7ee787" font-weight="400">$ research · design · implement · validate</text>
 </g></svg>

@@ -34,7 +34,7 @@ def shell(width, height, label):
         'aria-labelledby="title desc">',
         '<title id="title">Toufik Bentaleb — Control Systems Engineer</title>',
         '<desc id="desc">Terminal profile with a portrait drawn entirely from ASCII text characters. Senior Control Systems '
-        'Engineer, PhD, working on predictive control, state estimation, robotics, embedded systems '
+        'Engineer, PhD, working on advanced controller design, state estimation, robotics, embedded systems '
         'and DZARYON.</desc>',
         '<defs><clipPath id="window"><rect x="1" y="1" width="' + str(width-2) + '" height="' + str(height-2) + '" rx="18"/></clipPath></defs>',
         f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="18" fill="{BG}" stroke="{BORDER}" stroke-width="2"/>',
@@ -95,7 +95,7 @@ def desktop(portrait):
     s = shell(1040, 648, "bentaleb-toufik / README.md")
     s += [text(32, 91, "$ ./profile --engineer", 16, GREEN)]
     s += ascii_text(portrait, 27, 120, 326, 9.15, 9.1)
-    s += [text(70, 578, "MODEL. CONTROL. BUILD.", 14, MUTED)]
+    s += [text(50, 578, "RESEARCH. DESIGN. VALIDATE.", 14, MUTED)]
     s += [line(380, 84, 380, 585)]
     x = 412
     s += [text(x, 99, "toufik@control-lab", 17, GREEN),
@@ -103,19 +103,20 @@ def desktop(portrait):
           text(x, 174, "Senior Control Systems Engineer | PhD", 16, BLUE),
           line(x, 193, 1006, 193)]
     rows = [
-        ("Degree", "PhD, Control Systems · Siena, 2015"),
-        ("Experience", "15+ years · Research & engineering"),
-        ("Domains", "Robotics · Automotive · Industrial"),
-        ("Control", "MPC · Optimal · Adaptive · LPV"),
+        ("Degree", "PhD · Control Systems · Siena, 2015"),
+        ("Experience", "15+ years · Research & industry"),
+        ("Domains", "Robotics · Automotive · Automation"),
+        ("Control", "Advanced controller design"),
+        ("Methods", "Robust · Adaptive · Optimal · LPV"),
         ("Estimation", "Kalman · EKF/UKF · System ID"),
-        ("Learning", "ML diagnostics · Neural control"),
+        ("Learning", "ML diagnostics · Neural models"),
         ("Code", "MATLAB/Simulink · C/C++ · Python"),
         ("Tools", "ROS 2 · MuJoCo · CasADi · YALMIP"),
         ("Embedded", "STM32 · STM8 · CAN/LIN"),
         ("Languages", "Arabic · French · English"),
     ]
     for i, (key, value) in enumerate(rows):
-        y = 223 + 28*i
+        y = 223 + 26*i
         s += [text(x, y, key + ":", 15, ORANGE), text(x+122, y, value, 15)]
     s += [line(x, 508, 1006, 508),
           text(x, 539, "Building", 15, PURPLE),
@@ -123,14 +124,14 @@ def desktop(portrait):
           text(x, 568, "Web", 15, PURPLE),
           text(x+122, 568, "dzrobotics.org", 15, BLUE),
           line(32, 600, 1008, 600),
-          text(32, 629, "$ from models to controllers that run on real systems", 15, GREEN),
-          '<rect x="532" y="615" width="9" height="18" fill="#7ee787"/>',
+          text(32, 629, "$ advanced control · embedded intelligence", 15, GREEN),
+          '<rect x="421" y="615" width="9" height="18" fill="#7ee787"/>',
           '</g></svg>']
     return "\n".join(s) + "\n"
 
 
 def mobile(portrait):
-    s = shell(600, 1180, "bentaleb-toufik / README.md")
+    s = shell(600, 1250, "bentaleb-toufik / README.md")
     s += [text(28, 89, "$ ./profile --engineer", 19, GREEN)]
     s += ascii_text(portrait, 150, 111, 300, 8.4, 8.3)
     s += [
@@ -139,9 +140,10 @@ def mobile(portrait):
           text(28, 618, "PhD · 15+ years of experience", 19, MUTED),
           line(28, 643, 572, 643)]
     rows = [
-        ("Control", "MPC · Optimal · Adaptive · LPV"),
+        ("Control", "Advanced controller design"),
+        ("Methods", "Robust · Adaptive · Optimal · LPV"),
         ("Estimation", "Kalman · EKF/UKF · System ID"),
-        ("Learning", "ML diagnostics · Neural control"),
+        ("Learning", "ML diagnostics · Neural models"),
         ("Code", "MATLAB/Simulink · C/C++ · Python"),
         ("Tools", "ROS 2 · MuJoCo · CasADi · YALMIP"),
         ("Embedded", "STM32 · STM8 · CAN/LIN"),
@@ -150,10 +152,10 @@ def mobile(portrait):
     for i, (key, value) in enumerate(rows):
         y = 680 + i*49
         s += [text(28, y, key, 16, ORANGE), text(28, y+24, value, 20)]
-    s += [line(28, 1020, 572, 1020), text(28, 1054, "Building DZARYON", 22, PURPLE),
-          text(28, 1088, "AI & Intelligent Systems", 20),
-          text(28, 1122, "dzrobotics.org", 20, BLUE),
-          text(28, 1160, "$ model · simulate · implement · validate", 17, GREEN),
+    s += [line(28, 1080, 572, 1080), text(28, 1117, "Building DZARYON", 22, PURPLE),
+          text(28, 1151, "AI & Intelligent Systems", 20),
+          text(28, 1185, "dzrobotics.org", 20, BLUE),
+          text(28, 1228, "$ research · design · implement · validate", 17, GREEN),
           '</g></svg>']
     return "\n".join(s) + "\n"
 
