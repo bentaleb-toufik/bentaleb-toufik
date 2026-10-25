@@ -9,6 +9,8 @@
   <a href="https://dzrobotics.org/propose">Propose a project</a>
   &nbsp; / &nbsp;
   <a href="https://github.com/bentaleb-toufik?tab=repositories">Repositories</a>
+  &nbsp; / &nbsp;
+  <a href="./assets/portrait.txt">ASCII portrait (.txt)</a>
 </p>
 
 I develop control and estimation algorithms for systems that move, sense and interact with the physical world. My work connects dynamic modelling, simulation and optimization with embedded implementation and validation.
